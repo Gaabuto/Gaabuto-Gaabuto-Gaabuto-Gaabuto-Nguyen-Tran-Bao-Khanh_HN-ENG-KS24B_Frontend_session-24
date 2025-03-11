@@ -46,9 +46,9 @@ do {
       break;
     case 5:
       let sum1 = 0;
-      for (i = 0; i < n; i++) {
-        for (j = 0; j < n; j++) {
-          if (j == n - i) {
+      for (i = 0; i < rows; i++) {
+        for (j = 0; j < cols; j++) {
+          if (j == rows - i) {
             sum1 += matrix[i][j];
           }
         }
